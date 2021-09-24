@@ -1,6 +1,6 @@
 import telebot
 
-bot = telebot.TeleBot('1464134893:AAFoPzhUVL339JseiXrzEuVrzgXCEgXY1FU')
+bot = telebot.TeleBot('1464134893:AAFuczeg7O_co-l6ko2ibKiiFYwbUEOG4ZY')
 @bot.message_handler(commands=['start'])
 def send_welcome(message):
 	bot.send_message(message.chat.id,'SupderAdmin',parse_mode='Markdown')
