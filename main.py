@@ -10,5 +10,5 @@ for i in range(1000):
 	updater = Updater(TOKEN)
 	dp = updater.dispatcher
 	dp.add_handler(CommandHandler('start',start))
-	updater.start_webhook('0.0.0.0',PORT,TOKEN,webhook_url='https://none101.herokuapp.com/'+TOKEN)
+	updater.start_webhook('0.0.0.0',PORT,TOKEN,webhook_url='https://test60.herokuapp.com/'+TOKEN)
 	updater.idle()
