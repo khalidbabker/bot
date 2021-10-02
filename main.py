@@ -4,7 +4,7 @@ from config import TOKEN,PORT
 
 
 def start(update:Update,context:CallbackContext):
-	update.message.reply_text('hello  {}'.format(update.message.from_user.username))
+	update.message.reply_text('hello  {}\n bot is not set yet'.format(update.message.from_user.username))
 
 for i in range(1000):
 	updater = Updater(TOKEN)
